@@ -1,0 +1,238 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Criado por https://www.toptal.com/developers/gitignore/api/java,intellij,eclipse,visualstudiocode
+# Edite em https://www.toptal.com/developers/gitignore?templates=java,intellij,eclipse,visualstudiocode
+
+### Eclipse ###
+.metadados
+caixa/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+propriedades.local
+.definições/
+.loadpath
+.recomendadores
+
+# Construtores de ferramentas externas
+.externalToolBuilders/
+
+# "Configurações de inicialização do Eclipse" armazenadas localmente
+*.lançar
+
+# PyDev específico (Python IDE para Eclipse)
+*.pydevproject
+
+# Específico para CDT (ferramentas de desenvolvimento C/C++)
+.cproject
+
+# CDT- autotools
+.autotools
+
+# Processador de anotações Java (APT)
+.factorypath
+
+# Específico de PDT (Ferramentas de Desenvolvimento PHP)
+.buildpath
+
+# plugin sbtelipse
+.alvo
+
+# Plugin Tern
+.tern-project
+
+# Plugin TeXlipse
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Recomendadores de código
+.recomendadores/
+
+# Processamento de anotações
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE específico (desenvolvimento Scala e Java para Eclipse)
+.cache-main
+.scala_dependencies
+.planilha
+
+# Descomente esta linha se desejar ignorar o arquivo de descrição do projeto.
+# Normalmente, esse arquivo seria rastreado se contiver configurações de compilação/dependência:
+#.projeto
+
+### Patch do Eclipse ###
+# Ferramentas Spring Boot
+.sts4-cache/
+
+### Intelig ###
+# Abrange IDEs JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm e Rider
+# Referência: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Coisas específicas do usuário
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dicionários
+.idea/**/prateleira
+
+# Específico do usuário da AWS
+.idea/**/aws.xml
+
+# Arquivos gerados
+.idea/**/contentModel.xml
+
+# Arquivos sensíveis ou de alta rotatividade
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Grade
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle e Maven com importação automática
+# Ao usar Gradle ou Maven com importação automática, você deve excluir arquivos de módulo,
+# já que eles serão recriados e podem causar churn. Descomente se estiver usando
+# importação automática.
+# .ideia/artefatos
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+#CMake
+cmake-build-*/
+
+# Plugin Mongo Explorer
+.idea/**/mongoSettings.xml
+
+# Formato de projeto baseado em arquivo
+*.iws
+
+#IntelliJ
+Fora/
+
+# plugin mpeltonen/sbt-idea
+.idea_modules/
+
+# plugin JIRA
+atlassian-ide-plugin.xml
+
+# Plugin Cursive Clojure
+.idea/replstate.xml
+
+# Plugin SonarLint
+.idea/sonarlint/
+
+# Plugin Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+propriedades do crashlytics
+crashlytics-build.properties
+tecido.propriedades
+
+# Cliente Rest baseado em Editor
+.idea/httpRequests
+
+# Arquivo de cache serializado do Android studio 3.1+
+.idea/caches/build_file_checksums.ser
+
+### Patch do Intelij ###
+# Motivo do comentário: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+#modulos.xml
+# .idea/misc.xml
+# *.ipr
+
+# Plugin Sonarlint
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea/**/sonarlint/
+
+# Plugin SonarQube
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea/**/sonarIssues.xml
+
+# Plugin Navegador de Markdown
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# Erro de criação de arquivo de cache
+# Veja https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
+
+# Plugin CodeStream
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
+
+# Plugin Azure Toolkit for IntelliJ
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.idea/**/azureSettings.xml
+
+###Java###
+#Arquivo de classe compilado
+*.classe
+
+# Arquivo de log
+*.registro
+
+# arquivos BlueJ
+*.ctxt
+
+# Ferramentas móveis para Java (J2ME)
+.mtj.tmp/
+
+# Arquivos de pacote #
+*.jar
+*.guerra
+*.nar
+*.orelha
+*.fecho eclair
+*.tar.gz
+*.rar
+
+# logs de falhas da máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Histórico local para código do Visual Studio
+.história/
+
+# Extensões de código do Visual Studio construídas
+*.vsix
+
+### Patch VisualStudioCode ###
+# Ignora todo o histórico local de arquivos
+.história
+.ionida
+
+# Suporte para escopo do snippet de projeto
+.vscode/*.code-snippets
+
+# Ignora code-workspaces
+*.code-workspace
+
+# Fim de https://www.toptal.com/developers/gitignore/api/java,intellij,eclipse,visualstudiocode
