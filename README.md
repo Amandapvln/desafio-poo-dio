@@ -15,3 +15,7 @@
 </div>
 
 Neste momento, estou participando de um <b> DESAFIO </b>, proposto pela plataforma DIO com o objetivo de aprimorar  meu conhecimento em <b> POO (Programação Orientada ao Objeto) </b>
+
+<h1><b> :small_blue_diamond: Anotações em POO </b></h1>
+
+Os elementos da POO são formados através de <b>Classes, Objetos, Atributos, Métodos, Construtores, que irão ser mostrados nesse artigo.</b>
