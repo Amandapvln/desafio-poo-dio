@@ -13,3 +13,5 @@
 <a href = "mailto:amanda-lol@hotmail.com"><img src="https://img.shields.io/badge/Hotmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/amanda-paiva-lino-1bbb0189/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 </div>
+
+Neste momento, estou participando de um <b> DESAFIO </b>, proposto pela plataforma DIO com o objetivo de aprimorar  meu conhecimento em <b> POO (Programação Orientada ao Objeto) </b>
